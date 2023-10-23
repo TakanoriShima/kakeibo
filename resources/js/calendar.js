@@ -4,7 +4,7 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 import axios from 'axios';
 
 /* global history */
-export const show_calendar = () => {
+const show_calendar = () => {
     
     var calendarEl = document.getElementById("calendar");
     

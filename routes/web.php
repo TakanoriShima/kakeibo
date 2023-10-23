@@ -35,8 +35,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('records', RecordsController::class);
     Route::resource('categories', CategoriesController::class);
     Route::resource('users', UsersController::class);
-    
+    Route::get('chart', [RecordsController::class, 'chartGet'])->name('records.chart');
     Route::get('get_data', [RecordsController::class, 'scheduleGet']);
-    Route::get('chartjs', [RecordsController::class, 'chartGet']);
     
 });           

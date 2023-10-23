@@ -39,7 +39,7 @@
                     <input type="text" name="memo" value="{{ $record->memo }}" maxlength="20" >
                 </div>
 
-            <a class="btn btn-outline bg-orange-300 flex items-center" type="submit">更新</a>
+            <button class="btn btn-outline bg-orange-300 flex items-center" type="submit">更新</a>
         </form>
     </div>
 

@@ -39,7 +39,7 @@
             </label>
         </div>
 
-        <a class="btn btn-outline bg-orange-300 flex items-center" type="submit">登録</a>
+        <button class="btn btn-outline bg-orange-300 flex items-center" type="submit">登録</a>
     </form>
   </section>
   
